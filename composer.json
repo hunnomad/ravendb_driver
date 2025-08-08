@@ -3,7 +3,8 @@
     "description": "This class provides a simple interface for interacting with a RavenDB database using HTTP requests. It supports basic operations such as `PUT`, `GET`, `QUERY`, and `DELETE` for managing documents within a RavenDB instance. The class utilizes cURL for making HTTP requests and expects a PEM file for SSL certificate verification.",
     "version": "1.1.0",
     "require": {
-        "php": "^7.4"
+        "php": "^7.4 || ^8.0"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "minimum-stability": "stable"
 }
